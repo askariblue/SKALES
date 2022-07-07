@@ -1,4 +1,4 @@
 <?php
-    header("Content-Security-Policy: default-src https://*");
+    header("Content-Security-Policy: script-src-elem https://*");
     include("taskpane.html");
 ?>
